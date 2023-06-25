@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagens</title>
+</head>
+
+<body>
+    <h1>Testando carga e imagens</h1>
+    <!-- <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+    <img src="html5.png" alt="logo HTML5"> -->
+    <p>Abaixo você vai ver uma imagem carregada de uma mesma pasta porém, foi carregada de forma dinâmica.</p>
+    <div id="res"></div>
+    <p>Também podemos carregar imagens que estão em sub-pastas.</p>
+    <img src="imagens/logocss3.png
+    " alt="">
+    <p>E podemos também carregar imagens externas.</p>
+    <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="Logo Javascript">
+        <script>
+            let img = document.createElement('img')
+            img.setAttribute('src' , 'html5.png')
+            res.appendChild(img)
+        </script>
+</body>
+
+</html>
