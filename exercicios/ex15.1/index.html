@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="html.png" type="image/x-icon">
+    <style>
+        body {
+            font: normal 1em Arial;
+        }
+
+        .d1, .d2, .d3 {
+            display: inline-block;
+            background-color: yellow;
+            border: 1px solid black;
+            text-align: center;
+            height: 150px;
+            width: 150px;
+        }
+        
+        .d1:hover, .d2:hover, .d3:hover {
+            background-color: green;
+        }
+
+        div#id > p {
+            display: none;
+        }
+
+        div#id:hover > p {
+            display: block;
+            color: red;
+        }
+
+        #id:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1">01</div>
+    <div class="d2">02</div>
+    <div class="d3">03</div>
+    <p>Passe o mouse sobre o texto abaixo:</p>
+    <div id="id">
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim.</p>
+</body>
+
+</html>
