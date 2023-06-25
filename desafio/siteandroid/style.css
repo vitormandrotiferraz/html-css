@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url("fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* @media only screen and (max-device-width: 900px) {
+    /*.pricipal {width: 100%;}*/
+
+
+body {
+    background-color: #18a195d2;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #27e02edd, #22b827, #18881c, #136c16);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px 5px 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.606);
+}
+
+header > p {
+    color: #ffffff8c;
+    text-align: center;
+}
+
+nav {
+    padding:  7px 4px;
+}
+
+nav > a {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.941);
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav > a:hover {
+    background-color: #0d4b0f;
+    color: rgba(240, 248, 255, 0.762);
+}
+
+nav > a:visited {
+    color: rgba(250, 235, 215, 0.649);
+}
+
+section {
+    min-width: 300px;
+    max-width: 830px;   
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+}
+
+article > h2 {
+    font: bold 1.6em 'idroid';
+    color: #006b00;
+    margin: 0px;
+    padding: 20px 0px 15px 0px;
+}
+
+article > h3 {
+    background-image: linear-gradient(to right, #abd5acdd,  #9aba9bc0, white);
+    font: normal 1.3em 'idroid';
+    color: darkgreen;
+    padding: 2px 7px;
+    margin: 20px 0px 15px 0px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+article > p {
+    text-indent: 20px;
+    
+}
+
+picture > img {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+section > img {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.extra {
+    border-radius: 3px 3px 10px 12px;
+}
+
+.curiosidades > h3{
+    background-color: #18881ca8;
+    margin: 0px;
+    border-radius:  10px 12px 3px 3px;
+    padding: 9px;
+    color: rgba(255, 255, 255, 0.869);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.359);
+}
+
+.curiosidades {
+    background-color: #8ad28ddd;
+    border-radius:  10px 12px 3px 3px;
+}
+
+.curiosidades > p {
+    padding: 10px;
+    text-indent: 15px;
+}
+
+footer {
+    background-color: #136c16;
+    color: white;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+/*#1DA121, verde 3. #1DA121, verde 4. #24C729, verde 2. #28E02F, verde 1. #2BEF30, verde claro, extra.*/
+/*#22E0D1, azul. #18A195, azul um pouco mais escuro.*/
