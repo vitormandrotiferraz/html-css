@@ -4,11 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste de imagem de fundo</title>
+    <style>
+        body {
+            background-image: url(imagens/wallpaper005.jpg);
+        }
+
+        div.quadrado {
+            display: inline-block;
+            border: 1px solid black;
+            width: 150px;
+            height: 150px;
+            background-color: #353535;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, lightblue, purple);
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern004.png);
+        }
+
+    </style>
 </head>
 
 <body>
-
+ <div class="quadrado"></div>
+ <div class="quadrado" id="q2"></div>
+ <div class="quadrado" id="q3"></div>
 </body>
 
 </html>
