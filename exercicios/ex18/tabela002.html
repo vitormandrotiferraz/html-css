@@ -21,7 +21,7 @@
 
         caption {
             background-color: lightslategray;
-            color: rgb(246, 239, 225);
+            color: rgb(255, 255, 255);
             padding: 10px;
             font: bold 1em Arial;
             text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.407);
@@ -33,11 +33,23 @@
             background-color: white;
             width: 350px;
             border-collapse: collapse;
-            margin: 10px auto;
+            margin-top: 10px;
+            margin: auto;
+            position: relative;
         }
 
         thead, tfoot {
-            background-color: rgba(128, 128, 128, 0.531);
+            background-color: rgba(128, 128, 128, 0.908);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(128, 128, 128, 0.908);
+        }
+        
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td, th {
@@ -47,6 +59,17 @@
 
         td.num {
             text-align: right;
+        }
+
+        p {
+            text-align: right;
+            font: italic 1em Times;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        p > a {
+            color: black;
         }
     </style>
 </head>
@@ -185,7 +208,7 @@
             <td class="num"><strong>203 062 512</strong></td>
         </tfoot>
     </table>
-
+    <p>Fonte:<a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank">WikipédiA</a></p>
 </body>
 
 </html>
