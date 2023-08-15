@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadrasto.js" method="post">
+        <p>
+            <label for="num">Número 1:</label>
+            <input type="number" name="num" id="num" required oninput="soma.innerHTML = Number(num.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="n2">Número 2:</label>
+            <input type="number" name="n2" id="n2" required  oninput="soma.innerHTML = Number(num.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="soma">Soma:</label>
+            <output name="soma" id="soma">0</output>
+        </p>
+        <p>
+            <label for="val">Nível:</label>
+            <input type="range" name="val" id="val" min="0" max="10" oninput="niv.innerHTML = Number(val.value)">
+            <output id="niv">5</output>
+        </p>
+        <p>
+            <label for="ano">Ano de Nascimento:</label>
+            <input type="number" name="ano" id="ano" min="1900" max="2023" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="idade">Idade:</label>
+            <output id="idade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(ano.value)
+        }
+
+    </script>
+</body>
+</html>
