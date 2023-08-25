@@ -4,17 +4,46 @@
 
 /*IMPRESSÃO*/
 @media print {
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+    }
 
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    img#print { display: block; }
 }
 /*TABLET*/
 @media screen and (min-width: 700px) and (max-width:992px) {
-
+    body {
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    img#print { display: none; }
 }
-
+/*DESKTOP*/
 @media  screen and (min-width: 993px) and (max-width: 1200px) {
-    
+    body {
+        background-image: url('../imagens/back-pc.jpg');
+    }
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+    img#print { display: none; }
 }
-
+/*TELAS GRANDES*/
 @media screen and (min-width: 1201px) {
-
+    body {
+        background-image: url('../imagens/back-tv.jpg');
+    }
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+    img#print { display: none; }
 }
