@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    font: bold 2.5em TImes, serif;
+}
+
+main {
+    max-width: 800px;
+    padding: 10px;
+    margin: 10px auto;
+    border: solid 1px black;
+    border-radius: 10px;
+}
