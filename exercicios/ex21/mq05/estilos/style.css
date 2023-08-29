@@ -2,22 +2,75 @@
 
 * {
     margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(212, 211, 211, 0.949);
 }
 
 header {
-    background-color: lightgray;
-    padding: 10px;
+    background-color: rgb(189, 189, 189);
 }
 
 header h1 {
+    padding: 10px 0px 20px 0px;
     text-align: center;
     font: bold 2.5em TImes, serif;
 }
 
+span#burger {
+    display: block;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burger:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+}
+
+#menu > ul {
+    list-style-type: none;
+}
+
+#menu a {
+    display: block;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.668);
+}
+
+#menu a:hover {
+    background-color: darkgray;
+}
+
 main {
-    max-width: 800px;
+    background-color: white;
+    width: 89vw;
     padding: 10px;
     margin: 10px auto;
     border: solid 1px black;
     border-radius: 10px;
+}
+
+article > h1 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 20px;
+    padding-bottom: 20px;
 }
