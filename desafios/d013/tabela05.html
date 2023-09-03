@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        td,th {
+            border: solid 1px black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <caption>Boletim Escolar</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Disciplina</th>
+                    <th scope="colgroup" colspan="2">1ºTrimestre</th>
+                    <th scope="colgroup" colspan="2">2ºTrimestre</th>
+                    <th scope="colgroup" colspan="2">3ºTrimestre</th>
+                    <th scope="col" rowspan="2">Total Faltas</th>
+                    <th scope="col" rowspan="2">Média Final</th>
+                    <th scope="col" rowspan="2">Resultado Final</th>
+                </tr>
+                <tr style="background-color: white;">
+                    <th scope="col"></th>
+                    <th scope="col">Nota</th>
+                    <th scope="col">Faltas</th>
+                    <th scope="col">Nota</th>
+                    <th scope="col">Faltas</th>
+                    <th scope="col">Nota</th>
+                    <th scope="col">Faltas</th>
+                </tr>
+                <tr>
+                    <th scope="row">Arte</th>
+                    <td>8.7</td>
+                    <td>0</td>
+                    <td>7.0</td>
+                    <td>0</td>
+                    <td>8.0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Biologia</th>
+                    <td>6.0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Edu.Física</th>
+                    <td>10.0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Filosofia</th>
+                    <td>8.0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Física</th>
+                    <td>8.2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Geografia</th>
+                    <td>6.3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">História</th>
+                    <td>8.6</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Inglês</th>
+                    <td>8.5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Português</th>
+                    <td>9.5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Matemática</th>
+                    <td>9.7</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Química</th>
+                    <td>9.0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+
+</html>
