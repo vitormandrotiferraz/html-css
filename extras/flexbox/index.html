@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      section.container {
+        background-color: aquamarine;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: start;
+        gap: 20px;
+        }
+        
+        div {
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        div#red {
+            background-color: red;
+            order: 0;
+            /* flex-grow: 0;
+            flex-shrink: 2;
+            flex-basis: auto; */
+            flex: 0 1 auto;
+        }
+
+        div#yellow {
+            background-color: yellow;
+            order: 0;
+            /* flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto; */
+            flex: 0 1 auto;
+        }
+
+        div#orange {
+            background-color: orange;
+            order: 0;
+            /* flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto; */
+            flex: 0 1 auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div id="red">1</div>
+        <div id="yellow">2</div>
+        <div id="orange">3</div>
+        <div id="red">4</div>
+        <div id="yellow">5</div>
+        <div id="orange">6</div>
+        <div id="red">7</div>
+        <div id="yellow">8</div>
+        <div id="orange">9</div>
+        <div id="red">10</div>
+        <div id="yellow">11</div>
+        <div id="orange">12</div>
+    </section>
+</body>
+</html>
