@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*ESTILO PARA TELAS*/
+
+* {
+    margin: 0px;
+}
+
+html {
+    font: normal 1em Arial, Helvetica, Verdana, sans-serif;
+}
+
+
+header {
+    background-color: lightgray;
+    padding-top: 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+menu li {
+    display: inline;
+    padding: 10px;
+}
+
+article {
+    width: 500px;
+    display: block;
+    margin: 10px auto;
+}

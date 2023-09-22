@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style> 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            display: block;
+            margin: auto;
+            height: 300px;
+            width: 90vw;
+            border: solid 2px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum velit quo maxime, sed modi similique! Pariatur laboriosam recusandae aperiam minus beatae! Pariatur perferendis saepe aperiam nulla illum consectetur ea quo.</p>
+    <ul>
+        <li><a href="index.html" target="frame">pagina01</a></li>
+        <li><a href="teste01.html" target="frame">pagina02</a></li>
+        <li><a href="teste02.html" target="frame">pagina03</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi totam minima quaerat, exercitationem error dolor distinctio pariatur labore ullam debitis? Veritatis, cum expedita rerum aliquam veniam dolorem velit sint similique?</p>
+    <iframe name="frame" srcdoc="<h1> escolha uma das opções </h1> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo quas alias numquam obcaecati cupiditate aspernatur quos ullam accusamus repellat! Quis alias numquam, enim dolorum dolor sequi sunt aspernatur consequuntur.</p>">
+        <p>Infelizmente seu navegador não é compatível com iframe</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos qui omnis doloremque tempora, optio quisquam magnam rerum eaque possimus autem? Tenetur, cum cumque id perferendis quod quam reprehenderit debitis alias?</p>
+</body>
+</html>
