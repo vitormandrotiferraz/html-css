@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando</title>
+    <style>
+        body {
+            background-color: #f7cb9f;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tamanhos 1100, 800,500 e 200</h1>
+    <picture>
+        <source media="(max-width: 850px )" srcset="imagens/paisagem-200.jpg" type="image/jpg">
+        <source media="(max-width: 1150px )" srcset="imagens/paisagem-800.jpg" type="image/jpg">
+        <img src="imagens/paisagem-1100.jpg" alt="Paisagem fim de tarde">
+    </picture>
+    <p><a href="imagens/paisagem-1100.jpg" target="_blank" rel="next">Ver foto tamanho original</a></p>
+    <p><a href="imagens/paisagem-800.jpg" target="_blank" rel="next">Ver foto média</a></p>
+    <p><a href="imagens/paisagem-200.jpg" target="_blank" rel="next">Ver foto pequena</a></p>
+    <h2>A de 500 não funcionou &#x1F612;</h2>
+    <p><small>pq ficou muito parecido com a de 200.</small></p>
+    <h2>A de 800 funcionou &#x1F642;</h2>
+</body>
+
+</html>
